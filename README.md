@@ -16,3 +16,6 @@
     * Navbar
 ### _posts
 * Blog posts
+
+## Local Development
+* run `jekyll serve`
