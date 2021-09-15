@@ -7,5 +7,4 @@ defaults:
 exclude:
   - "*.config.js"
   - "package*.json"
-  - "assets"
   - "node_modules"
