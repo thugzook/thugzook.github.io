@@ -1,15 +1,17 @@
-<div class="relative bg-gray-800 overflow-hidden">
-  <div class="relative pt-6 pb-6">
+<div class="relative overflow-hidden">
+  <div class="relative">
     <div>
-      <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
-        <div class="space-x-14 flex mx-auto">
+      <nav class="relative max-w-7xl mx-auto px-4 sm:px-6" aria-label="Global">
+        <div class="flex flex-grow">
           <!-- Generate nav from navigation.yml-->
 
           {% for item in site.data.navigation %}
-          
-          <a href="{{ item.link }}" 
-            class="font-medium text-white hover:text-gray-300 {% if page.url == item.link %}underline{% endif %}">
-            {{ item.name }}
+
+          <a href="{{ item.link }}"  class="flex-1 p-3 {{ item.color }} text-center hover:{{ item.hover }}">
+            <p 
+              class=" font-medium text-white {% if page.url == item.link %}underline{% endif %}">
+              {{ item.name }}
+          </p>
           </a>
 
           {% endfor %}

@@ -1,6 +1,20 @@
 - name: Home
   link: /
+  color: bg-red-500
+  hover: bg-red-600
 - name: About
   link: /about.html
+  color: bg-yellow-600
+  hover: bg-yellow-700
 - name: Blog
   link: /blog.html
+  color: bg-yellow-400
+  hover: bg-yellow-500
+- name: Resume
+  link: /resume.html
+  color: bg-green-400
+  hover: bg-green-500
+- name: Contact
+  link: /contact.html
+  color: bg-blue-500
+  hover: bg-blue-600
