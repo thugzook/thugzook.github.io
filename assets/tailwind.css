@@ -600,6 +600,21 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face {
+  font-family: 'thuggy';
+
+  font-weight: 400;
+
+  src: url(assets/fonts/Thuggy_script-Regular.ttf) format("truetype");
+}
+
+,
+  @font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url(assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
 .container {
   width: 100%;
 }
@@ -23697,6 +23712,14 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-thuggy {
+  font-family: Thuggy_script;
+}
+
+.font-Roboto {
+  font-family: Roboto;
 }
 
 .text-xs {
@@ -56597,6 +56620,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-thuggy {
+    font-family: Thuggy_script;
+  }
+
+  .sm\:font-Roboto {
+    font-family: Roboto;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -89141,6 +89172,14 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-thuggy {
+    font-family: Thuggy_script;
+  }
+
+  .md\:font-Roboto {
+    font-family: Roboto;
   }
 
   .md\:text-xs {
@@ -121689,6 +121728,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-thuggy {
+    font-family: Thuggy_script;
+  }
+
+  .lg\:font-Roboto {
+    font-family: Roboto;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -154235,6 +154282,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-thuggy {
+    font-family: Thuggy_script;
+  }
+
+  .xl\:font-Roboto {
+    font-family: Roboto;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -186779,6 +186834,14 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-thuggy {
+    font-family: Thuggy_script;
+  }
+
+  .\32xl\:font-Roboto {
+    font-family: Roboto;
   }
 
   .\32xl\:text-xs {
