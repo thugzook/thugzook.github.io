@@ -7,11 +7,10 @@
 
           {% for item in site.data.navigation %}
 
-          <a href="{{ item.link }}"  class="flex-1 p-3 {{ item.color }} text-center hover:{{ item.hover }}">
-            <p 
-              class=" font-medium text-white {% if page.url == item.link %}underline{% endif %}">
-              {{ item.name }}
-          </p>
+          <a href= "{{ item.link }}"
+            class=" font-black text-gray-700 hover:text-red-400 flex-1 p-5 text-center font-thuggy text-5xl
+            {% if page.url == item.link %}underline{% endif %}">
+            {{ item.name }}
           </a>
 
           {% endfor %}
