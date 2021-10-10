@@ -19,3 +19,4 @@
 
 ## Local Development
 * run `jekyll serve`
+* https://medium.com/swlh/building-a-personal-coding-portfolio-website-60ccc6137f3
