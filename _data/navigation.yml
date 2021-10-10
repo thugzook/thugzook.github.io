@@ -2,9 +2,7 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
 - name: Resume
-  link: /resume.html
+  link: /assets/resume/NoahChong_Resume.pdf
 - name: Contact
-  link: /contact.html
+  link: mailto:atachongnoah@gmail.com
