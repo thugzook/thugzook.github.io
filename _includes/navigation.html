@@ -1,14 +1,14 @@
 <div class="relative overflow-hidden">
   <div class="relative">
     <div>
-      <nav class="relative max-w-7xl mx-auto px-4 sm:px-6" aria-label="Global">
+      <nav class="relative max-w-7xl mt-6 mx-auto px-4 sm:px-6" aria-label="Global">
         <div class="flex">
           <!-- Generate nav from navigation.yml-->
 
           {% for item in site.data.navigation %}
 
           <a href= "{{ item.link }}"
-            class=" font-black text-gray-700 hover:text-red-400 flex-1 p-5 text-center font-thuggy text-4xl
+            class=" font-black text-gray-700 hover:text-red-400 flex-1 text-center font-thuggy text-4xl
             {% if page.url == item.link %}underline{% endif %}">
             {{ item.name }}
           </a>
