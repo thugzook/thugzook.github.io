@@ -20,3 +20,6 @@
 ## Local Development
 * run `jekyll serve`
 * https://medium.com/swlh/building-a-personal-coding-portfolio-website-60ccc6137f3
+
+## Updating custom font
+* `npx tailwindcss build -i ./assets/styles/tailwind.css -o ./assets/tailwind.css -c ./tailwind.config.js`
