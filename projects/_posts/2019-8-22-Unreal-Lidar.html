@@ -1,0 +1,27 @@
+---
+layout: post
+author: Noah Chong
+title: Unreal LiDAR
+languages: UE4 Python C++ Matlab
+image: /assets/images/lidar.gif
+image_alt: a simulation with a drone shooting lasers around it with green dots indicating where those lasers hit
+---
+  This semester-long research project was focused on creating real-time VLP-16 LiDAR simulations using Unreal Engine and Microsoft AirSim.
+  We simulated IR interactions with glass and compared it with real-world test data.
+
+  <br />
+  <h2>Simulation Screens</h2>
+
+  <img src="/assets/images/lidar2.png" alt="an office recreated using IR datapoints, colored from red to white based on distance" class="mx-auto object-cover flex border-2 rounded border-blue-300 h-72" />
+
+  Features:
+  <ul>
+    <li>UDP packets streamed to UE4 from a VLP-16 using the Boost C++ library</li>
+    <li>Intensity and distance based coloring</li>
+    <li>Toggleable Minimap</li>
+    <li>10Hz Refresh rate</li>
+  </ul>
+
+  <img src="/assets/images/lidar3.png" alt="an office recreated using IR datapoints, with green dots representing test data and red data being truth values. they're very close" class="mx-auto object-cover flex border-2 rounded border-blue-300 h-72" />
+
+  <p>Side by side point cloud comparisons between our simulation and a real-world location. The green point cloud is simulated data and the red point cloud is our truth value.</p>
